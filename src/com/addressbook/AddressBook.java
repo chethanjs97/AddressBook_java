@@ -106,7 +106,7 @@ public class AddressBook {
 				
 			}
 			if (choice==3) {
-				System.out.println("enter the name you want to delet. note:it should be the first name");
+				System.out.println("enter  the name you want to delet. note:it should be the first name");
 				String del=sc.next();
 				File f4=new File("C:\\Users\\chethan j s\\eclipse-workspace\\AddressBook\\src\\com\\addressbook"+del+".txt");
 				boolean delete=f4.exists();
